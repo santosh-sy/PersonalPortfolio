@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Santosh Portfolio Website</title>
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel = "stylesheet" href="../styles.css">
+        <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <div class="logo">
+                <img src="images/sg_logo.png", alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class = "nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                    <li class = "nav__item"><a href="../index.html#aboutme" class="nav__link">About Me</a></li>
+                    <li class = "nav__item"><a href="../index.html#techs" class="nav__link">Technologies</a></li>
+                    <li class = "nav__item"><a href="../index.html#projects" class="nav__link">Projects</a></li>
+                    <li class = "nav__item"><a href="../index.html#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Connexus: Empowering<strong>Meaningful Connections</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Mobile App for Seamless Social Engagement</p>
+            <img src="../images/coverproject.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>In my social media application project, I am developing a mobile application that enables users to connect, share media such as photos and videos, and engage in in-app messaging and video calls. The app focuses on fostering meaningful connections and providing a seamless user experience.</p>
+            <p>One of the key features of the application is the ability for users to rate and review locations they visit, enhancing the social aspect of the app. Additionally, users can tag other individuals who have joined them in their photos, further promoting social interaction and collaboration.</p>
+            <p>To bring this project to life, I am utilizing Flutter for frontend development, leveraging its cross-platform capabilities. The backend development is being done in Java, ensuring efficient and secure data management. AWS RDS is being utilized for database storage, while Heroku serves as the server for hosting and managing the application. This project showcases my skills in mobile app development, backend programming, and cloud infrastructure integration.</p>
+        </div>
+        
+        
+        <!--Footer-->
+        <footer class="footer" id="contact">
+            <h3 class="footer__item">My Contact Information</h3>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:santoshoh9@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class = "social-list__link" href="https://github.com/santosh-sy">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class = "social-list__link" href="https://www.linkedin.com/in/santosh-g-a30552271/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="../scripts/index.js"></script>
+        
+    </body>
+</html>
